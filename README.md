@@ -9,5 +9,7 @@
  
  ctrl+alt+N 快捷插入原文
  
+  ctrl+alt+o 删除不必要的引入文件
  
  
+ ctrl+p  设置方法自动显示参数提示

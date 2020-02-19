@@ -2,29 +2,92 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d415250a-bc5f-4b54-ad00-9a7573d52e99" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_62.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_4_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_2_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_13_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_1_3_61.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_common_1_3_61.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mus/community/AuthorizeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mus/community/dto/AccessTokenDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mus/community/dto/GitHubUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mus/community/provider/GitHubProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_h2database_h2_1_4_200.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mus/community/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/community.iml" beforeDir="false" afterPath="$PROJECT_DIR$/community.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mus/community/AuthorizeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mus/community/controller/AuthorizeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mus/community/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mus/community/controller/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mus/community/dto/GitHubUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mus/community/dto/GitHubUser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/Index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mus/community/AuthorizeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mus/community/IndexController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mus/community/dto/GitHubUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mus/community/dto/GitHubUser.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/Index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="communtiy" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="communtiy" type="feb32156:DbDataSourceImpl" />
+        <item name="COMMUNTIY: database" type="2aa06773:H2ImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="communtiy" type="feb32156:DbDataSourceImpl" />
+        <item name="COMMUNTIY: database" type="2aa06773:H2ImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="communtiy" type="feb32156:DbDataSourceImpl" />
+        <item name="COMMUNTIY: database" type="2aa06773:H2ImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="PUBLIC: schema" type="7f85d983:H2ImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="communtiy" type="feb32156:DbDataSourceImpl" />
+        <item name="COMMUNTIY: database" type="2aa06773:H2ImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="PUBLIC: schema" type="7f85d983:H2ImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="communtiy" type="feb32156:DbDataSourceImpl" />
+        <item name="COMMUNTIY: database" type="2aa06773:H2ImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="PUBLIC: schema" type="7f85d983:H2ImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="USER: table" type="818c1b4a:H2ImplModel$Table" />
+      </path>
+    </expand>
+    <select />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="community" />
@@ -47,6 +110,11 @@
       </set>
     </option>
   </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -64,6 +132,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="h2" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -81,7 +150,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -105,7 +174,17 @@
       <list>
         <serviceView>
           <treeState>
-            <expand />
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:communtiy" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:communtiy" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@31b44a83" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
             <select />
           </treeState>
         </serviceView>
@@ -123,6 +202,9 @@
       <option name="presentableId" value="Default" />
       <updated>1581587970743</updated>
       <workItem from="1581587983184" duration="16308000" />
+      <workItem from="1582009595613" duration="68000" />
+      <workItem from="1582009796122" duration="6942000" />
+      <workItem from="1582094326487" duration="7180000" />
     </task>
     <task id="LOCAL-00001" summary="开始">
       <created>1581657344919</created>
@@ -137,78 +219,136 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="开始" />
     <option name="LAST_COMMIT_MESSAGE" value="开始" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="183" key="#Inspections" timestamp="1581669264313">
+    <state x="552" y="183" key="#Inspections" timestamp="1582098743441">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="183" key="#Inspections/0.0.1920.1050@0.0.1920.1050" timestamp="1581669264313" />
-    <state x="414" y="180" width="1207" height="690" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581588012040">
+    <state x="552" y="183" key="#Inspections/0.0.1920.1050@0.0.1920.1050" timestamp="1582098743441" />
+    <state x="414" y="180" width="1207" height="690" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582099846316">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="414" y="180" width="1207" height="690" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1581588012040" />
-    <state x="765" y="201" key="#com.intellij.ide.util.MemberChooser" timestamp="1581668802105">
+    <state x="414" y="180" width="1207" height="690" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1582099846316" />
+    <state x="765" y="201" key="#com.intellij.ide.util.MemberChooser" timestamp="1582098230024">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="765" y="201" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1581668802105" />
+    <state x="765" y="201" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1582098230024" />
+    <state x="690" y="300" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1582098455268">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="690" y="300" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1582098455268" />
+    <state x="697" y="326" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog" timestamp="1582012202804">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="697" y="326" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1582012202804" />
     <state x="429" y="28" key="CommitChangelistDialog2" timestamp="1581657342801">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="429" y="28" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1581657342801" />
-    <state x="740" y="265" key="FileChooserDialogImpl" timestamp="1581660227773">
+    <state x="92" y="92" width="1736" height="866" key="DiffContextDialog" timestamp="1582011277455">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="740" y="265" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1581660227773" />
+    <state x="92" y="92" width="1736" height="866" key="DiffContextDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1582011277455" />
+    <state x="740" y="265" key="FileChooserDialogImpl" timestamp="1582098518502">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="740" y="265" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1582098518502" />
     <state x="821" y="413" width="600" height="224" key="Github.ShareDialog" timestamp="1581657458936">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="821" y="413" width="600" height="224" key="Github.ShareDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1581657458936" />
-    <state width="1877" height="262" key="GridCell.Tab.0.bottom" timestamp="1581670146087">
+    <state width="1877" height="262" key="GridCell.Tab.0.bottom" timestamp="1582103021724">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="262" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1581670146087" />
-    <state width="1877" height="262" key="GridCell.Tab.0.center" timestamp="1581670146086">
+    <state width="1877" height="262" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1582103021724" />
+    <state width="1877" height="262" key="GridCell.Tab.0.center" timestamp="1582103021724">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="262" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1581670146086" />
-    <state width="1877" height="262" key="GridCell.Tab.0.left" timestamp="1581670146086">
+    <state width="1877" height="262" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1582103021724" />
+    <state width="1877" height="262" key="GridCell.Tab.0.left" timestamp="1582103021724">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="262" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1581670146086" />
-    <state width="1877" height="262" key="GridCell.Tab.0.right" timestamp="1581670146086">
+    <state width="1877" height="262" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1582103021724" />
+    <state width="1877" height="262" key="GridCell.Tab.0.right" timestamp="1582103021724">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="262" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1581670146086" />
-    <state width="1877" height="262" key="GridCell.Tab.1.bottom" timestamp="1581670146087">
+    <state width="1877" height="262" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1582103021724" />
+    <state width="1877" height="262" key="GridCell.Tab.1.bottom" timestamp="1582103021725">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="262" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1581670146087" />
-    <state width="1877" height="262" key="GridCell.Tab.1.center" timestamp="1581670146087">
+    <state width="1877" height="262" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1582103021725" />
+    <state width="1877" height="262" key="GridCell.Tab.1.center" timestamp="1582103021725">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="262" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1581670146087" />
-    <state width="1877" height="262" key="GridCell.Tab.1.left" timestamp="1581670146087">
+    <state width="1877" height="262" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1582103021725" />
+    <state width="1877" height="262" key="GridCell.Tab.1.left" timestamp="1582103021724">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="262" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1581670146087" />
-    <state width="1877" height="262" key="GridCell.Tab.1.right" timestamp="1581670146087">
+    <state width="1877" height="262" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1582103021724" />
+    <state width="1877" height="262" key="GridCell.Tab.1.right" timestamp="1582103021725">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="262" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1581670146087" />
+    <state width="1877" height="262" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1582103021725" />
+    <state width="1877" height="327" key="GridCell.Tab.2.bottom" timestamp="1582011959875">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="327" key="GridCell.Tab.2.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1582011959875" />
+    <state width="1877" height="327" key="GridCell.Tab.2.center" timestamp="1582011959875">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="327" key="GridCell.Tab.2.center/0.0.1920.1050@0.0.1920.1050" timestamp="1582011959875" />
+    <state width="1877" height="327" key="GridCell.Tab.2.left" timestamp="1582011959875">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="327" key="GridCell.Tab.2.left/0.0.1920.1050@0.0.1920.1050" timestamp="1582011959875" />
+    <state width="1877" height="327" key="GridCell.Tab.2.right" timestamp="1582011959875">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="327" key="GridCell.Tab.2.right/0.0.1920.1050@0.0.1920.1050" timestamp="1582011959875" />
     <state x="490" y="180" key="Maven.ArtifactSearchDialog" timestamp="1581666006424">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="490" y="180" key="Maven.ArtifactSearchDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1581666006424" />
-    <state x="351" y="327" width="1013" height="708" key="SettingsEditor" timestamp="1581660530005">
+    <state x="343" y="203" width="1013" height="708" key="SettingsEditor" timestamp="1582010551525">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="351" y="327" width="1013" height="708" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1581660530005" />
-    <state x="623" y="227" key="search.everywhere.popup" timestamp="1581664934894">
+    <state x="343" y="203" width="1013" height="708" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1582010551525" />
+    <state x="681" y="266" width="540" height="540" key="StructurePopup" timestamp="1582010580052">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="623" y="227" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1581664934894" />
+    <state x="681" y="266" width="540" height="540" key="StructurePopup/0.0.1920.1050@0.0.1920.1050" timestamp="1582010580052" />
+    <state x="835" y="396" width="355" height="271" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1582016042670">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="835" y="396" width="355" height="271" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1920.1050@0.0.1920.1050" timestamp="1582016042670" />
+    <state x="676" y="158" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1582097919607">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="676" y="158" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1582097919607" />
+    <state x="808" y="209" width="519" height="632" key="com.intellij.database.view.ui.DbObjectDialog" timestamp="1582015901846">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="808" y="209" width="519" height="632" key="com.intellij.database.view.ui.DbObjectDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1582015901846" />
+    <state x="826" y="391" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup" timestamp="1582010565250">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="826" y="391" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup/0.0.1920.1050@0.0.1920.1050" timestamp="1582010565250" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1582102176602">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1582102176602" />
   </component>
 </project>
