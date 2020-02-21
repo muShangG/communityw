@@ -1,327 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d415250a-bc5f-4b54-ad00-9a7573d52e99" name="Default Changelist" comment="开始">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mus/community/controller/Publishcontroller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mus/community/mapper/QuestionMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mus/community/model/Question.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/css/layui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/css/layui.mobile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/css/modules/code.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/css/modules/layer/default/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/css/modules/layer/default/layer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/font/iconfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/font/iconfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/font/iconfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/font/iconfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/font/iconfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/10.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/11.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/12.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/13.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/14.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/15.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/16.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/17.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/18.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/19.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/20.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/21.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/22.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/23.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/24.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/25.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/26.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/27.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/28.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/29.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/30.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/31.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/32.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/33.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/34.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/35.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/36.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/37.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/38.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/39.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/40.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/41.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/42.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/43.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/44.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/45.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/46.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/47.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/48.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/49.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/50.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/51.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/52.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/53.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/54.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/55.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/56.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/57.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/58.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/59.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/60.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/61.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/62.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/63.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/64.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/65.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/66.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/67.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/68.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/69.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/70.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/71.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/9.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/code.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/colorpicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/element.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/flow.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/laydate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/layedit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/layer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/laypage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/laytpl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/mobile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/rate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/slider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/transfer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/tree.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/upload.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/layui.all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/layui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/json/console/prograss.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/json/console/top-card.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/json/console/top-search.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/json/content/comment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/json/content/list.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/json/content/tags.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/json/forum/list.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/json/forum/replys.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/json/layer/photos.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/json/layim/getList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/json/layim/getMembers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/json/mall/order.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/json/menu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/json/menu1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/json/message/all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/json/message/detail.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/json/message/direct.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/json/message/new.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/json/message/notice.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/json/table/demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/json/table/demo2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/json/table/demo3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/json/table/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/json/table/user30.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/json/upload/demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/json/user/forget.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/json/user/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/json/user/logout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/json/user/reg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/json/user/resetpass.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/json/user/session.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/json/user/sms.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/json/useradmin/mangadmin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/json/useradmin/role.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/json/useradmin/webuser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/json/workorder/demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/json/说明.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/css/layui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/css/layui.mobile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/css/modules/code.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/css/modules/laydate/default/font.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/css/modules/layer/default/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/css/modules/layer/default/layer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/css/modules/layim/html/chatlog.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/css/modules/layim/html/find.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/css/modules/layim/html/getmsg.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/css/modules/layim/html/msgbox.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/css/modules/layim/layim.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/css/modules/layim/mobile/layim.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/css/modules/layim/skin/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/css/modules/layim/skin/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/css/modules/layim/skin/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/css/modules/layim/skin/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/css/modules/layim/skin/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/css/modules/layim/skin/logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/css/modules/layim/voice/default.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/font/iconfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/font/iconfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/font/iconfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/font/iconfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/10.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/11.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/12.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/13.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/14.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/15.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/16.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/17.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/18.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/19.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/20.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/21.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/22.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/23.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/24.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/25.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/26.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/27.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/28.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/29.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/30.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/31.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/32.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/33.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/34.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/35.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/36.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/37.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/38.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/39.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/40.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/41.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/42.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/43.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/44.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/45.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/46.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/47.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/48.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/49.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/50.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/51.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/52.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/53.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/54.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/55.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/56.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/57.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/58.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/59.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/60.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/61.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/62.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/63.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/64.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/65.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/66.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/67.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/68.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/69.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/70.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/71.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/images/face/9.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/lay/all-mobile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/lay/all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/lay/modules/carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/lay/modules/code.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/lay/modules/colorpicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/lay/modules/element.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/lay/modules/flow.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/lay/modules/form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/lay/modules/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/lay/modules/laydate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/lay/modules/layedit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/lay/modules/layer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/lay/modules/layim.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/lay/modules/laypage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/lay/modules/laytpl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/lay/modules/mobile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/lay/modules/mobile/layer-mobile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/lay/modules/mobile/layim-mobile-open.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/lay/modules/mobile/layim-mobile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/lay/modules/mobile/upload-mobile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/lay/modules/mobile/zepto.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/lay/modules/rate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/lay/modules/slider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/lay/modules/table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/lay/modules/tree.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/lay/modules/upload.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/lay/modules/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/layui.all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/layui/layui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/lib/admin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/lib/extend/echarts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/lib/extend/echartsTheme.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/lib/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/lib/view.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/modules/common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/modules/console.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/modules/contlist.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/modules/forum.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/modules/im.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/modules/message.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/modules/sample.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/modules/senior.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/modules/set.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/modules/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/modules/useradmin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/modules/workorder.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/style/admin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/style/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/style/res/bg-none.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/style/res/layui-logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/style/res/logo-black.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/style/res/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/style/res/template/character.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/style/res/template/huge.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/style/res/template/portrait.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/style/template.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/tpl/layim/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/tpl/system/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/tpl/system/get.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/tpl/system/more.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/tpl/system/theme.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/tpl/system/说明.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layuiadmin/tpl/说明.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/publish.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+    <list default="true" id="d415250a-bc5f-4b54-ad00-9a7573d52e99" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mus/community/controller/AuthorizeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mus/community/controller/AuthorizeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mus/community/controller/Publishcontroller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mus/community/controller/Publishcontroller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mus/community/dto/GitHubUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mus/community/dto/GitHubUser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/Index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/publish.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/publish.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mus/community/controller/AuthorizeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mus/community/controller/AuthorizeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mus/community/controller/Publishcontroller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mus/community/controller/Publishcontroller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mus/community/dto/GitHubUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mus/community/dto/GitHubUser.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/Index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/publish.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/publish.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -500,7 +191,7 @@
       <workItem from="1582009595613" duration="68000" />
       <workItem from="1582009796122" duration="6942000" />
       <workItem from="1582094326487" duration="7180000" />
-      <workItem from="1582185483081" duration="16618000" />
+      <workItem from="1582185483081" duration="21153000" />
     </task>
     <task id="LOCAL-00001" summary="开始">
       <created>1581657344919</created>
@@ -509,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581657344919</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="发布">
+      <created>1582268104170</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1582268104170</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -526,8 +224,10 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="开始" />
-    <option name="LAST_COMMIT_MESSAGE" value="开始" />
+    <MESSAGE value="发布" />
+    <option name="LAST_COMMIT_MESSAGE" value="发布" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="183" key="#Inspections" timestamp="1582098743441">
@@ -542,10 +242,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="396" y="331" width="1207" height="690" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1582187305150" />
-    <state x="765" y="201" key="#com.intellij.ide.util.MemberChooser" timestamp="1582263536718">
+    <state x="765" y="201" key="#com.intellij.ide.util.MemberChooser" timestamp="1582269671938">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="765" y="201" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1582263536718" />
+    <state x="765" y="201" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1582269671938" />
     <state x="690" y="300" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1582261955067">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -554,18 +254,18 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="722" y="364" width="475" height="324" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1050@0.0.1920.1050" timestamp="1582263493792" />
-    <state x="697" y="326" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog" timestamp="1582012202804">
+    <state x="697" y="326" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog" timestamp="1582269213306">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="697" y="326" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1582012202804" />
+    <state x="697" y="326" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1582269213306" />
     <state x="690" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582263512899">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="690" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1582263512899" />
-    <state x="429" y="28" key="CommitChangelistDialog2" timestamp="1582192051208">
+    <state x="429" y="28" key="CommitChangelistDialog2" timestamp="1582268101267">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="429" y="28" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1582192051208" />
+    <state x="429" y="28" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1582268101267" />
     <state x="92" y="92" width="1736" height="866" key="DiffContextDialog" timestamp="1582193178908">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -582,54 +282,54 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="821" y="413" width="600" height="224" key="Github.ShareDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1581657458936" />
-    <state width="1877" height="262" key="GridCell.Tab.0.bottom" timestamp="1582266298225">
+    <state width="1877" height="262" key="GridCell.Tab.0.bottom" timestamp="1582270657913">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="262" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1582266298225" />
-    <state width="1877" height="262" key="GridCell.Tab.0.center" timestamp="1582266298225">
+    <state width="1877" height="262" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1582270657913" />
+    <state width="1877" height="262" key="GridCell.Tab.0.center" timestamp="1582270657913">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="262" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1582266298225" />
-    <state width="1877" height="262" key="GridCell.Tab.0.left" timestamp="1582266298225">
+    <state width="1877" height="262" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1582270657913" />
+    <state width="1877" height="262" key="GridCell.Tab.0.left" timestamp="1582270657912">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="262" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1582266298225" />
-    <state width="1877" height="262" key="GridCell.Tab.0.right" timestamp="1582266298225">
+    <state width="1877" height="262" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1582270657912" />
+    <state width="1877" height="262" key="GridCell.Tab.0.right" timestamp="1582270657913">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="262" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1582266298225" />
-    <state width="1877" height="262" key="GridCell.Tab.1.bottom" timestamp="1582266298225">
+    <state width="1877" height="262" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1582270657913" />
+    <state width="1877" height="262" key="GridCell.Tab.1.bottom" timestamp="1582270657913">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="262" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1582266298225" />
-    <state width="1877" height="262" key="GridCell.Tab.1.center" timestamp="1582266298225">
+    <state width="1877" height="262" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1582270657913" />
+    <state width="1877" height="262" key="GridCell.Tab.1.center" timestamp="1582270657913">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="262" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1582266298225" />
-    <state width="1877" height="262" key="GridCell.Tab.1.left" timestamp="1582266298225">
+    <state width="1877" height="262" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1582270657913" />
+    <state width="1877" height="262" key="GridCell.Tab.1.left" timestamp="1582270657913">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="262" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1582266298225" />
-    <state width="1877" height="262" key="GridCell.Tab.1.right" timestamp="1582266298225">
+    <state width="1877" height="262" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1582270657913" />
+    <state width="1877" height="262" key="GridCell.Tab.1.right" timestamp="1582270657913">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="262" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1582266298225" />
-    <state width="1877" height="327" key="GridCell.Tab.2.bottom" timestamp="1582011959875">
+    <state width="1877" height="262" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1582270657913" />
+    <state width="1877" height="327" key="GridCell.Tab.2.bottom" timestamp="1582268967427">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="327" key="GridCell.Tab.2.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1582011959875" />
-    <state width="1877" height="327" key="GridCell.Tab.2.center" timestamp="1582011959875">
+    <state width="1877" height="327" key="GridCell.Tab.2.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1582268967427" />
+    <state width="1877" height="327" key="GridCell.Tab.2.center" timestamp="1582268967427">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="327" key="GridCell.Tab.2.center/0.0.1920.1050@0.0.1920.1050" timestamp="1582011959875" />
-    <state width="1877" height="327" key="GridCell.Tab.2.left" timestamp="1582011959875">
+    <state width="1877" height="327" key="GridCell.Tab.2.center/0.0.1920.1050@0.0.1920.1050" timestamp="1582268967427" />
+    <state width="1877" height="327" key="GridCell.Tab.2.left" timestamp="1582268967427">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="327" key="GridCell.Tab.2.left/0.0.1920.1050@0.0.1920.1050" timestamp="1582011959875" />
-    <state width="1877" height="327" key="GridCell.Tab.2.right" timestamp="1582011959875">
+    <state width="1877" height="327" key="GridCell.Tab.2.left/0.0.1920.1050@0.0.1920.1050" timestamp="1582268967427" />
+    <state width="1877" height="327" key="GridCell.Tab.2.right" timestamp="1582268967427">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="327" key="GridCell.Tab.2.right/0.0.1920.1050@0.0.1920.1050" timestamp="1582011959875" />
+    <state width="1877" height="327" key="GridCell.Tab.2.right/0.0.1920.1050@0.0.1920.1050" timestamp="1582268967427" />
     <state x="490" y="180" key="Maven.ArtifactSearchDialog" timestamp="1581666006424">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

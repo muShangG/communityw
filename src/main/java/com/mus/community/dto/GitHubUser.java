@@ -1,15 +1,15 @@
 package com.mus.community.dto;
 
 public class GitHubUser {
-    private  long id;
+    private  Long id;
     private  String name;
     private  String bio;
 
-    public long getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
@@ -27,14 +27,5 @@ public class GitHubUser {
 
     public void setBio(String bio) {
         this.bio = bio;
-    }
-
-    @Override
-    public String toString() {
-        return "GitHubUser{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", bio='" + bio + '\'' +
-                '}';
     }
 }
