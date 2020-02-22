@@ -68,6 +68,6 @@
   "pkColumn" : null,
   "otherColumn" : null,
   "savePackageName" : "com.mus.community.model",
-  "savePath" : "./src/main/java/com/mus/community/model",
+  "savePath" : "./src/main/resources/Mybaits",
   "saveModelName" : "community"
 }

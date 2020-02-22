@@ -9,18 +9,20 @@
 
 
 </head>
-<body>
+
+<body style="background-color: #efefef">
 <nav class="navbar navbar-default">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only" >IT社区</span>
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">IT社区</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="Index.html">IT社区</a>
+            <a class="navbar-brand" href="/">IT社区</a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -35,7 +37,8 @@
                     <a href="/publish">发布</a>
                 </li>
                 <li class="dropdown" th:if="${session.user!=null}">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                       aria-expanded="false">
                         <span th:text="${session.user.name}"></span>
                         <span class="caret"></span></a>
                     <ul class="dropdown-menu">
@@ -55,5 +58,45 @@
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
 </nav>
+<div class="container-fluid" style="margin: 30px;background-color: white">
+    <div class="row">
+        <div class="col-lg-9 col-md-12 col-sm-12  aw-main-content" >
+            <ul class="nav nav-tabs aw-nav-tabs active hidden-xs">
+                <h4><span class="glyphicon glyphicon-list" aria-hidden="true"></span>发现</h4>
+            </ul>
+
+
+            <!--/*@thymesVar id="maps" type=""*/-->
+            <div class="media" th:each="maps,iterStat :${map}">
+                <div class="media-left">
+                    <a href="#">
+                        <img class="media-object img-rounded"
+
+                             style="width: 40px; height: 40px;" th:src="${map[iterStat.index].values()[13]}">
+                    </a>
+                </div>
+                <div class="media-body" >
+                    <h4 class="media-heading" style="cursor:pointer;color:#155faa;" th:text="${map[iterStat.index].values()[10]}"> </h4>
+                    <span class="label label-primary" th:text="${map[iterStat.index].values()[11]}"></span>
+                    <span  class="aw-user-name" th:text="${map[iterStat.index].values()[5]}" ></span>
+                    <span style="font-size:12px;font-weight: normal;color: #999">发起了问题 • 1 人关注 • <span th:text="${map[iterStat.index].values()[1]}">0</span> 个回复 • <span th:text="${map[iterStat.index].values()[7]}">0</span> 次浏览 • 1 天前</span>
+
+                </div>
+                <hr>
+            </div>
+
+
+        </div>
+        <div class="col-lg-3 col-md-12 col-sm-12" style="    border-left: 1px solid #e6e6e6;">
+            <h4>相关问题</h4>
+                <h6>sss</h6>
+            <h6>sss</h6>
+            <h6>sss</h6><h6>sss</h6>
+            <h6>sss</h6>
+
+        </div>
+    </div>
+</div>
+
 </body>
 </html>

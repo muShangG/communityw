@@ -29,6 +29,7 @@ public class AuthorizeController {
     private String Redirect_uri;
     @Autowired
     private UserMapper userMapper;
+
     @GetMapping("/callback")
     public String callback(@RequestParam(name = "code") String code,
                            @RequestParam(name = "state") String state,
@@ -42,7 +43,7 @@ public class AuthorizeController {
         accessTokenDTO.setState(state);
         String accessTokken = gitHubProvider.getAccessTokken(accessTokenDTO);
         GitHubUser getuser = gitHubProvider.getuser(accessTokken);
-        if (getuser != null && getuser.getId()!= null) {
+        if (getuser != null && getuser.getId() != null) {
             //登录成功写入cookie和session
             User user = new User();
             String token = UUID.randomUUID().toString();
@@ -51,15 +52,14 @@ public class AuthorizeController {
             user.setAccountId(String.valueOf(getuser.getId()));
             user.setGmtCreat(System.currentTimeMillis());
             user.setGmtModified(user.getGmtCreat());
+            user.setAvatar_url(getuser.getAvatar_url());
             userMapper.insert(user);
             //写入cookie
-            response.addCookie(new Cookie("token",token));
+            response.addCookie(new Cookie("token", token));
             //写入session
             //request.getSession().setAttribute("user",getuser);
-            return "redirect:/";
-        } else {
-            return "redirect:/";
         }
+        return "redirect:/";
 
     }
 }
