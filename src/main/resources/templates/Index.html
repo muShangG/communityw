@@ -70,10 +70,10 @@
             <div class="media" th:each="maps,iterStat :${map}">
                 <div class="media-left">
                     <a href="#">
-                        <img class="media-object img-rounded"
+                    <img class="media-object img-rounded"
 
-                             style="width: 40px; height: 40px;" th:src="${map[iterStat.index].values()[13]}">
-                    </a>
+                         style="width: 40px; height: 40px;" th:src="${map[iterStat.index].values()[13]}">
+                </a>
                 </div>
                 <div class="media-body" >
                     <h4 class="media-heading" style="cursor:pointer;color:#155faa;" th:text="${map[iterStat.index].values()[10]}"> </h4>

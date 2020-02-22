@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mus.community.mapper.UserMapper">
+<!--    User findToken(@Param("token") String token);-->
+    <select id="findToken" resultType="com.mus.community.model.User">
+        select * from user where token=#{token}
+    </select>
+
+<!--    void  insert(User user);-->
+    <insert id="insert">
+        insert into PUBLIC.USER(ACCOUNT_ID, NAME, TOKEN, GMT_CREAT, GMT_MODIFIED,AVATAR_URL) values
+        (#{accountId}, #{name}, #{token}, #{gmtCreat}, #{gmtModified},#{avatar_url})
+    </insert>
+    
+</mapper>
